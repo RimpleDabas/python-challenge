@@ -3,7 +3,7 @@ import os
 # Define the source  path for the  csv file
 file_path = r"PyPoll/Resources/election_data.csv"
 #Define the source path for the result text file in the analysis folder
-result_path = r"PyPoll/Analysis/election_results.txt"
+result_path = r"PyPoll/Analysis/election_resultstest.txt"
 # Get the list for the months, net profit and net change and initilize the total to zero
 total_votes = []
 Candidates = []
