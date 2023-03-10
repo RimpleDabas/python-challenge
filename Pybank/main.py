@@ -21,10 +21,10 @@ with open(file_path) as file:
         total = total + int(row[1]) #keep on adding the rows
         net_profit.append(int(row[1])) # make a list for the profit/loss column
    
-#from the  profit list and subtract values one by one to see the net change,append the empty list by these values and then get the average.
+#from the  profit list, subtract values one by one to see the net change,append the empty list by these values and then get the average.
 Difference = 0             
 for each in range(len(net_profit)):
-    if each < len(net_profit) - 1: # we have to subtract -1 because otherwise
+    if each < len(net_profit) - 1: 
         Difference = Difference + (net_profit[each + 1] - net_profit[each])
         net_change.append(Difference)
         Difference = 0
